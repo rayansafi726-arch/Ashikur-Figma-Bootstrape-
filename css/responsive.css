@@ -1,0 +1,484 @@
+@media (max-width: 768px) { 
+    #nav {
+        padding:18px !important;
+    }
+    #nav .mobile_menu_bar{
+        background-color:transparent;
+    }
+
+    .mobile_menu_offcanvas{
+            max-width:70%;
+    }
+     #hero h5{
+           
+            font-size: 16px;
+        }
+          #hero h1{
+                font-size:40px;
+          }
+           #hero p{
+            font-size:16px;
+           }
+            #hero .btns {
+            display: flex;
+            gap:20px;
+      }   
+
+     #hero .btns a:first-child{
+                padding:20px 10px 0;
+               font-size:16px;
+     }     
+     #hero .btns a:last-child{
+                    padding:21px 0 0 35px;
+               font-size:16px;
+     }   
+   /* ABOUT RESPONSIVE START */
+  
+   /* ABOUT RESPONSIVE START */
+  #about {
+    padding: 45px 20px 0;
+  }
+
+  #about::after {
+    width: 150px;
+    height: 150px;
+    top: -75px;
+    bottom: auto;
+    right: 24px;
+  }
+
+  #about h2 {
+    font-size: 34px;
+    margin-bottom: 16px;
+  }
+
+  #about p {
+    font-size: 16px;
+    line-height: 170%;
+    margin-bottom: 24px;
+  }
+
+  #about .btn-outline {
+    margin-bottom: 30px;
+  }
+
+  #about img {
+    margin-top: 10px;
+    transform: scaleX(-1);
+  }
+  /* ABOUT RESPONSIVE END */
+/* FEATURES RESPONSIVE START */
+  #features {
+    padding: 60px 15px;
+  }
+
+  #features .feature-card {
+    padding: 35px 24px;
+    box-shadow: 0 14px 35px rgba(0, 0, 0, 0.12);
+  }
+
+  #features .feature-card img {
+    width: 68px;
+    height: 68px;
+    margin-bottom: 18px;
+  }
+
+  #features .feature-card h4 {
+    font-size: 18px;
+  }
+
+  #features .feature-card p {
+    font-size: 15px;
+  }
+  /* FEATURES RESPONSIVE END */
+
+  /* BRANDING RESPONSIVE START */
+  /* BRANDING RESPONSIVE START */
+  #branding {
+    padding: 35px 15px 40px;
+  }
+
+  #branding .branding-top-shape {
+    width: 56px;
+    height: 57px;
+    top: -18px;
+    right: 22px;
+  }
+
+  #branding .branding-card {
+    padding: 28px 20px 0;
+    border-radius: 22px;
+  }
+
+  #branding h2 {
+    font-size: 30px;
+  }
+
+  #branding p {
+    font-size: 15px;
+  }
+
+  #branding .btn-group-wrap {
+    margin-bottom: 24px;
+  }
+
+  #branding .branding-img {
+    max-height: 295px;
+    margin-bottom: -4px;
+  }
+
+  #branding .branding-arrow {
+    width: 38px;
+  }
+  /* BRANDING RESPONSIVE END */
+
+  /* SERVICES RESPONSIVE START */
+  #services {
+    padding: 55px 15px;
+  }
+
+  #services .services-content h2 {
+    font-size: 32px;
+    margin-bottom: 14px;
+  }
+
+  #services .services-content p {
+    font-size: 15px;
+  }
+
+  #services .stats-wrap {
+    gap: 32px !important;
+    margin-bottom: 10px;
+  }
+
+  #services .stat-box h3 {
+    font-size: 28px;
+  }
+
+  #services .service-item {
+    padding: 18px 20px;
+    gap: 18px !important;
+  }
+
+  #services .service-icon {
+    width: 50px;
+    height: 50px;
+  }
+
+  #services .service-icon.app-icon img {
+    width: 22px;
+    height: 22px;
+  }
+
+  #services .service-icon.brand-icon img {
+    width: 20px;
+    height: 20px;
+  }
+
+  #services .service-info h5 {
+    font-size: 16px;
+  }
+  /* SERVICES RESPONSIVE END */
+
+  /* EXPERIENCE RESPONSIVE START */
+  #experience {
+    padding: 55px 15px;
+  }
+
+  #experience .section-heading h2 {
+    font-size: 32px;
+    margin-bottom: 36px;
+  }
+
+  #experience .timeline-row {
+    padding-bottom: 34px;
+  }
+
+  #experience .timeline-row::before {
+    top: 14px;
+    bottom: -14px;
+    left: 8.3333%;
+  }
+
+  #experience .timeline-end-row {
+    margin-top: -10px;
+  }
+
+  #experience .timeline-dot {
+    width: 28px;
+    height: 28px;
+  }
+
+  #experience .timeline-dot::after {
+    width: 11px;
+    height: 11px;
+  }
+
+  #experience .exp-left h5,
+  #experience .exp-right h5 {
+    font-size: 18px;
+  }
+
+  #experience .exp-left {
+    margin-bottom: 12px;
+  }
+
+  #experience .exp-right p {
+    font-size: 14px;
+  }
+  /* EXPERIENCE RESPONSIVE END */
+
+  /* EXPERTISE RESPONSIVE START */
+  #expertise {
+    padding: 55px 15px;
+  }
+
+  #expertise .expertise-left h2 {
+    font-size: 32px;
+    margin-bottom: 16px;
+  }
+
+  #expertise .expertise-left p {
+    font-size: 14px;
+  }
+
+  #expertise .btn-download-cv {
+    display: none;
+  }
+
+  #expertise .expertise-tabs {
+    gap: 12px;
+    margin-bottom: 28px;
+  }
+
+  #expertise .tab-btn {
+    padding: 10px 24px;
+    font-size: 14px;
+  }
+
+  #expertise .skill-item {
+    margin-bottom: 22px;
+  }
+  /* EXPERTISE RESPONSIVE END */
+
+  /* MY SERVICES RESPONSIVE START */
+  #my-services {
+    padding: 55px 15px;
+  }
+
+  #my-services .section-header {
+    text-align: left !important;
+    margin-bottom: 30px;
+  }
+
+  #my-services .section-header h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+
+  #my-services .section-header p {
+    font-size: 14px;
+  }
+
+  #my-services .service-card {
+    display: flex;
+    align-items: flex-start;
+    text-align: left;
+    gap: 18px;
+    padding: 24px 20px;
+    border-radius: 14px;
+  }
+
+  #my-services .service-card-icon {
+    width: 64px;
+    height: 64px;
+    margin: 0;
+  }
+
+  #my-services .service-card-body h4 {
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+
+  #my-services .service-card-body p {
+    font-size: 13px;
+    max-width: 100%;
+    margin: 0;
+  }
+
+  #my-services .service-card.featured-card .service-card-body h4,
+  #my-services .service-card.featured-card .service-card-body p {
+    color: #ffffff;
+  }
+  /* MY SERVICES RESPONSIVE END */
+
+    /* TESTIMONIAL RESPONSIVE START */
+  #testimonial {
+    padding: 55px 15px;
+  }
+
+  #testimonial .section-header {
+    margin-bottom: 32px;
+  }
+
+  #testimonial .section-header h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+
+  #testimonial .section-header p {
+    font-size: 14px;
+  }
+
+  #testimonial .testimonial-img {
+    max-width: 290px;
+    max-height: 280px;
+    margin-bottom: 8px;
+  }
+
+  #testimonial .testimonial-quote {
+    font-size: 15px;
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+
+  #testimonial .client-line {
+    display: inline-block;
+  }
+
+  #testimonial .client-meta h5 {
+    font-size: 16px;
+  }
+  /* TESTIMONIAL RESPONSIVE END */
+
+  /* BLOG RESPONSIVE START */
+  #blog {
+    padding: 55px 15px;
+  }
+
+  #blog .section-heading h2 {
+    font-size: 30px;
+    text-align: left;
+    margin-bottom: 30px;
+  }
+
+  #blog .blog-card {
+    gap: 14px;
+  }
+
+  #blog .blog-thumb {
+    width: 130px;
+    height: 112px;
+    border-radius: 12px;
+  }
+
+  #blog .blog-meta {
+    gap: 10px;
+    font-size: 11px;
+    margin-bottom: 8px;
+    flex-wrap: wrap;
+  }
+
+  #blog .blog-body h5 {
+    font-size: 14px;
+    margin-bottom: 12px;
+  }
+
+  #blog .blog-read-more {
+    font-size: 12px;
+  }
+  /* BLOG RESPONSIVE END */
+
+      /* NEWSLETTER RESPONSIVE START */
+  #newsletter {
+    padding: 40px 15px 60px;
+  }
+
+  #newsletter .newsletter-box {
+    padding: 34px 22px;
+    border-radius: 20px;
+  }
+
+  #newsletter .newsletter-text span {
+    font-size: 13px;
+  }
+
+  #newsletter .newsletter-text h2 {
+    font-size: 26px;
+  }
+
+  #newsletter .newsletter-text p {
+    font-size: 13px;
+    line-height: 160%;
+  }
+
+  #newsletter .newsletter-form {
+    max-width: 100%;
+    margin-left: 0;
+    border-radius: 12px;
+  }
+
+  #newsletter .newsletter-input {
+    padding: 13px 14px;
+    font-size: 13px;
+  }
+
+  #newsletter .btn-send-now {
+    padding: 13px 18px;
+    font-size: 13px;
+  }
+  /* NEWSLETTER RESPONSIVE END */
+
+      /* FOOTER RESPONSIVE START */
+  #footer {
+    padding: 46px 18px 42px;
+  }
+
+  #footer .footer-shape {
+    display: none;
+  }
+
+  #footer .footer-logo img {
+    max-height: 32px;
+  }
+
+  #footer .footer-cta-text h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  #footer .footer-cta-text p {
+    font-size: 13px;
+    max-width: 100%;
+  }
+
+  #footer .btn-lets-talk {
+    padding: 11px 20px;
+    font-size: 13px;
+  }
+
+  #footer .footer-bottom {
+    margin-top: 28px;
+    padding-top: 0;
+  }
+
+  #footer .footer-bottom .row {
+    --bs-gutter-y: 1.25rem;
+  }
+
+  #footer .footer-bottom .row > div:nth-child(1),
+  #footer .footer-bottom .row > div:nth-child(2) {
+    width: 50%;
+  }
+
+  #footer .footer-contact-item a {
+    font-size: 13px;
+  }
+
+  #footer .footer-social {
+    justify-content: flex-start !important;
+    gap: 16px !important;
+  }
+  /* FOOTER RESPONSIVE END */
+
+    }

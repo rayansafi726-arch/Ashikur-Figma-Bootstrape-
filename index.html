@@ -1,0 +1,739 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ashikur</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-yEPZ7jP9S0QKiUQ0m3jjsO4ProIW7wvR9gXkI7JOGa2XVsw53Yke2bsdkBbjmmiX" crossorigin="anonymous">
+
+      <link rel="stylesheet" href="./css/style.css">
+      <link rel="stylesheet" href="./css/responsive.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  </head>
+  <body>
+    <!-- NAVBAR START-->
+    <nav class="navbar navbar-expand-lg py-0" id="nav">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+      <img src="./images/Logo.png" alt="">
+    </a>
+   <button class="btn d-lg-none mobile_menu_bar" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+      <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M14 5.25V7H0V5.25H14ZM0 12.25H28V14H0V12.25ZM14 21V19.25H28V21H14Z" fill="black" />
+</svg>
+   </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="#">HOME</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="#">ABOUT</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="#">PROJECTS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="#">BLOCKS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="#">CONTACTS</a>
+        </li>
+       
+      </ul>
+     
+    </div>
+  </div>
+</nav>
+ <!-- NAVBAR END-->
+
+ <!-- NAV OF CANVES START -->
+      
+
+
+<div class="offcanvas mobile_menu_offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+  <div class="offcanvas-header">
+    <img src="./images/Logo.png" alt="">
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="#">HOME</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="#">ABOUT</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="#">PROJECTS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="#">BLOCKS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="#">CONTACTS</a>
+        </li>
+       
+      </ul>
+   
+  </div>
+</div> 
+<!-- NAV OF CANVES  END-->
+
+    <!-- HERO -->
+     <section id="hero" class="py-5">
+    <div class="container">
+      <div class="row align-items-center">
+        
+        <div class="col-lg-6 order-2 order-lg-1">
+          <h5>Hello, I'm Arif Rahman <span><svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M29.34 21.3333C29.34 25.7467 25.7533 29.3333 21.34 29.3333V27.3333C24.6733 27.3333 27.34 24.6667 27.34 21.3333H29.34ZM0.00666666 8C0.00666666 3.58667 3.59333 0 8.00667 0V2C4.67333 2 2.00667 4.66667 2.00667 8H0.00666666ZM9.34 4.42667L3.22 10.56C-1.07333 14.8533 -1.07333 21.8267 3.22 26.12C7.51333 30.4133 14.4867 30.4133 18.78 26.12L28.2067 16.6667C28.86 16.04 28.86 14.9867 28.2067 14.3333C28.0518 14.1781 27.8679 14.055 27.6654 13.971C27.463 13.8869 27.2459 13.8437 27.0267 13.8437C26.8074 13.8437 26.5904 13.8869 26.3879 13.971C26.1854 14.055 26.0015 14.1781 25.8467 14.3333L19.9533 20.2267L19.0067 19.28L27.7267 10.56C28.38 9.90667 28.38 8.85333 27.7267 8.2C27.0733 7.54667 26.0067 7.54667 25.34 8.2L17.5933 16L16.6733 15.0267L25.8333 5.84C26.4867 5.18667 26.4867 4.13333 25.8333 3.48C25.18 2.82667 24.1267 2.82667 23.4733 3.48L14.2867 12.6667L13.34 11.7333L20.6733 4.42667C21.34 3.77333 21.34 2.72 20.6733 2.06667C20.0067 1.41333 18.9667 1.41333 18.3133 2.06667L8.15333 12.2267C8.94886 13.2528 9.34303 14.5338 9.26204 15.8297C9.18105 17.1256 8.63044 18.3475 7.71333 19.2667L6.76667 18.32C7.51574 17.57 7.93648 16.5533 7.93648 15.4933C7.93648 14.4333 7.51574 13.4167 6.76667 12.6667L6.3 12.2L11.7267 6.77333C12.38 6.12 12.38 5.06667 11.7267 4.41333C11.06 3.77333 10.0067 3.77333 9.34 4.42667Z" fill="#FFD233" />
+          </svg></span></h5>
+          <h1>UIUX and Graphic Designer</h1>
+          <p>With 10 years experience as a Professional Web developer.</p>
+          
+          <div class="btns">
+            <a href="#">Lets Talk <span><svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M21 1L10 12M21 1L14 21L10 12L1 8L21 1Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke="white" />
+            </svg></span></a>
+
+            <a href="#">Download CV <span><svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M10.9914 20.0153V11.0153M10.9914 20.0153L8.49142 18.0153M10.9914 20.0153L13.4914 18.0153M4.02542 7.13232C3.07963 7.37032 2.25329 7.94548 1.70167 8.74977C1.15005 9.55405 0.911099 10.5321 1.02972 11.5001C1.14835 12.4681 1.61638 13.3595 2.34588 14.0068C3.07538 14.6541 4.01615 15.0127 4.99142 15.0153H5.99142" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke="#353535" />
+              <path d="M14.8214 5.15334C14.4796 3.79992 13.636 2.62708 12.4615 1.8726C11.287 1.11812 9.86964 0.838434 8.49663 1.09025C7.12361 1.34206 5.89771 2.10653 5.06743 3.22868C4.23716 4.35084 3.86463 5.74671 4.02537 7.13334C4.02537 7.13334 4.17837 8.01534 4.49137 8.51534" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke="#353535" />
+              <path d="M15.9915 15.0154C16.6975 15.0149 17.3954 14.8649 18.0393 14.5752C18.6832 14.2856 19.2584 13.8628 19.7272 13.3349C20.1959 12.8069 20.5475 12.1856 20.7588 11.5119C20.9702 10.8382 21.0364 10.1274 20.9532 9.42633C20.8701 8.7252 20.6393 8.04965 20.2762 7.44412C19.9132 6.83859 19.426 6.31683 18.8467 5.91317C18.2674 5.5095 17.6092 5.2331 16.9155 5.10214C16.2217 4.97118 15.508 4.98865 14.8215 5.15338L13.4915 5.51538" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke="#353535" />
+            </svg></span></a>
+          </div>
+          <div class="follow">
+            <div><p class="mb-0">Follow me:</p></div>
+            <div class="icons">
+              <a href="#"><i class="fa-brands fa-dribbble"></i></a>
+              <a href="#"><i class="fa-brands fa-behance"></i></a>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#"><i class="fa-brands fa-github"></i></a>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-lg-6 order-1 order-lg-2">
+          <img class="img-fluid" src="./images/hero_img.png" alt="">
+        </div>
+
+      </div>
+    </div>
+  </section>
+    <!-- HERO  END-->
+   
+    <!-- ABOUT START -->
+<section id="about">
+    <div class="container">
+        <div class="row align-items-center justify-content-between">
+            <div class="col-lg-6 order-lg-2">
+                <h2>About Me</h2>
+                <p>With 10 years experience as a professional Web developer, I have acquired the skills and knowledge necessary to make your project a success. I enjoy every step of the design process, from discussion and collaboration.</p>
+                <a href="#" class="btn-outline">See More</a>
+            </div>
+            <div class="col-lg-5 text-center order-lg-1">
+                <img src="./images/Group 211.png" alt="About Me" class="img-fluid">
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ABOUT END -->
+
+<!-- FEATURES START -->
+<section id="features">
+    <div class="container">
+        <div class="row g-4 justify-content-center">
+            <div class="col-lg-4">
+                <div class="feature-card text-center">
+                    <img src="./images/Frame.png" alt="Pixel Perfect" class="img-fluid">
+                    <h4>Pixel Perfect</h4>
+                    <p>Most common methods for designing websites that work well on desktop is responsive and adaptive design.</p>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="feature-card text-center">
+                    <img src="./images/Frame (1).png" alt="High Quality" class="img-fluid">
+                    <h4>High Quality</h4>
+                    <p>Most common methods for designing websites that work well on desktop is responsive and adaptive design.</p>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="feature-card text-center">
+                    <img src="./images/Frame (2).png" alt="Awesome Idea" class="img-fluid">
+                    <h4>Awesome Idea</h4>
+                    <p>Most common methods for designing websites that work well on desktop is responsive and adaptive design.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- FEATURES END -->
+
+<!-- BRANDING START -->
+<section id="branding">
+    <div class="container">
+        <div class="branding-wrapper">
+            <img src="./images/Ellipse 56.png" alt="Shape" class="branding-top-shape">
+            <div class="branding-card">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 order-lg-2">
+                        <h2>Branding</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet ornare id faucibus nunc fusce tellus scelerisque adipiscing lorem. Mollis tortor, mattis urna imperdiet.</p>
+                        <div class="btn-group-wrap">
+                            <a href="#" class="btn-see-project">See Project</a>
+                            <img src="./images/Vector 8.png" alt="Arrow" class="branding-arrow">
+                        </div>
+                    </div>
+                    <div class="col-lg-5 offset-lg-1 order-lg-1 text-center">
+                        <img src="./images/Group 205.png" alt="Digital Product Design" class="img-fluid branding-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- BRANDING END -->
+
+<!-- SERVICES START -->
+<section id="services">
+    <div class="container">
+        <div class="row align-items-center gy-4">
+            <div class="col-lg-5 order-2 order-lg-1">
+                <div class="service-list d-flex flex-column gap-4">
+                    <div class="service-item d-flex align-items-center gap-4">
+                        <div class="service-icon">
+                            <img src="./images/Group 216.png" alt="Website Design">
+                        </div>
+                        <div class="service-info">
+                            <h5>Website Design</h5>
+                            <span>712 project</span>
+                        </div>
+                    </div>
+
+                    <div class="service-item d-flex align-items-center gap-4">
+                        <div class="service-icon app-icon">
+                            <img src="./images/bytesize_mobile.png" alt="Mobile App Design">
+                        </div>
+                        <div class="service-info">
+                            <h5>Mobile App Design</h5>
+                            <span>712 project</span>
+                        </div>
+                    </div>
+
+                    <div class="service-item d-flex align-items-center gap-4">
+                        <div class="service-icon brand-icon">
+                            <img src="./images/Vector.png" alt="Brand Identity">
+                        </div>
+                        <div class="service-info">
+                            <h5>Brand Identity</h5>
+                            <span>712 project</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6 offset-lg-1 order-1 order-lg-2">
+                <div class="services-content">
+                    <h2>What Do I Help?</h2>
+                    <p>I will help you with finding a solution and solve your problems. We use process design to create digital products. Beside that also help their business.</p>
+
+                    <div class="stats-wrap d-flex align-items-center gap-5 mt-4">
+                        <div class="stat-box">
+                            <h3>250+</h3>
+                            <span>Project Completed</span>
+                        </div>
+                        <div class="stat-box">
+                            <h3>150+</h3>
+                            <span>Happy Clients</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- SERVICES END -->
+
+<!-- EXPERIENCE START -->
+<section id="experience">
+    <div class="container">
+        <div class="section-heading">
+            <h2>My Work Experience</h2>
+        </div>
+
+        <div class="timeline-wrapper">
+            <div class="row timeline-row">
+                <div class="col-md-4 col-10 order-2 order-md-1 exp-left">
+                    <h5>Self Employ, India</h5>
+                    <span>Sep 2019 - Aug 2020</span>
+                </div>
+
+                <div class="col-md-2 col-2 order-1 order-md-2 timeline-marker-col">
+                    <span class="timeline-dot dot-green"></span>
+                </div>
+
+                <div class="col-md-6 col-10 offset-2 offset-md-0 order-3 order-md-3 exp-right">
+                    <h5>Visual Designer</h5>
+                    <p>A Visual designe design for a varaity of platforms which may includes internat and internet sites, games, movies and wareable. In short, they create the concept.</p>
+                </div>
+            </div>
+
+            <div class="row timeline-row">
+                <div class="col-md-4 col-10 order-2 order-md-1 exp-left">
+                    <h5>New Man Service</h5>
+                    <span>Sep 2019 - Aug 2020</span>
+                </div>
+
+                <div class="col-md-2 col-2 order-1 order-md-2 timeline-marker-col">
+                    <span class="timeline-dot dot-red"></span>
+                </div>
+
+                <div class="col-md-6 col-10 offset-2 offset-md-0 order-3 order-md-3 exp-right">
+                    <h5>UI/UX Designer</h5>
+                    <p>A Visual designe design for a varaity of platforms which may includes internat and internet sites, games, movies and wareable. In short, they create the concept.</p>
+                </div>
+            </div>
+
+            <div class="row timeline-row is-last">
+                <div class="col-md-4 col-10 order-2 order-md-1 exp-left">
+                    <h5>Global Solution</h5>
+                    <span>Sep 2019 - Aug 2020</span>
+                </div>
+
+                <div class="col-md-2 col-2 order-1 order-md-2 timeline-marker-col">
+                    <span class="timeline-dot dot-yellow"></span>
+                </div>
+
+                <div class="col-md-6 col-10 offset-2 offset-md-0 order-3 order-md-3 exp-right">
+                    <h5>Sr. Product Designer</h5>
+                    <p>A Visual designe design for a varaity of platforms which may includes internat and internet sites, games, movies and wareable. In short, they create the concept.</p>
+                </div>
+            </div>
+
+            <div class="row timeline-end-row">
+                <div class="col-md-4 d-none d-md-block"></div>
+                <div class="col-md-2 col-2 timeline-marker-col">
+                    <span class="timeline-dot dot-green timeline-end-dot"></span>
+                </div>
+                <div class="col-md-6 d-none d-md-block"></div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- EXPERIENCE END -->
+
+<!-- EXPERTISE START -->
+<section id="expertise">
+    <div class="container">
+        <div class="row align-items-start gy-4">
+            <div class="col-lg-5">
+                <div class="expertise-left">
+                    <h2>My Expert Areas</h2>
+                    <p>You can express yourself however you want and whenever you want, for free. You can customize a template or make your own from scratch, with an immersive library at your disposal. You can express yourself however you want and whenever you free.</p>
+                    <p>You can customize a template or make your own from scratch, with an immersive library at your disposal.</p>
+                    <a href="#" class="btn-download-cv" download>
+                        <span>Download CV</span>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                            <polyline points="17 8 12 3 7 8"></polyline>
+                            <line x1="12" y1="3" x2="12" y2="15"></line>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-lg-6 offset-lg-1">
+                <div class="expertise-right">
+                    <div class="expertise-tabs">
+                        <button type="button" class="tab-btn active" data-target="skills-panel">Skills</button>
+                        <button type="button" class="tab-btn" data-target="education-panel">Education</button>
+                    </div>
+
+                    <div id="skills-panel" class="tab-panel active">
+                        <div class="skill-item skill-figma">
+                            <div class="skill-meta">
+                                <span class="skill-name">Figma</span>
+                                <span class="skill-percent">85%</span>
+                            </div>
+                            <div class="skill-track">
+                                <div class="skill-fill" style="width: 85%;"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item skill-photoshop">
+                            <div class="skill-meta">
+                                <span class="skill-name">Photoshop</span>
+                                <span class="skill-percent">75%</span>
+                            </div>
+                            <div class="skill-track">
+                                <div class="skill-fill" style="width: 75%;"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item skill-xd">
+                            <div class="skill-meta">
+                                <span class="skill-name">XD</span>
+                                <span class="skill-percent">80%</span>
+                            </div>
+                            <div class="skill-track">
+                                <div class="skill-fill" style="width: 80%;"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item skill-illustrator">
+                            <div class="skill-meta">
+                                <span class="skill-name">Illustrator</span>
+                                <span class="skill-percent">70%</span>
+                            </div>
+                            <div class="skill-track">
+                                <div class="skill-fill" style="width: 70%;"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="education-panel" class="tab-panel">
+                        <div class="education-item">
+                            <h5>Diploma in Computer Technology</h5>
+                            <span>2023 - Present</span>
+                            <p>Focused on software fundamentals, web technologies, database basics, and structured problem solving.</p>
+                        </div>
+
+                        <div class="education-item">
+                            <h5>Web & UI Development Training</h5>
+                            <span>2025 - Present</span>
+                            <p>Hands-on practice with HTML, CSS, Bootstrap, Figma-to-HTML conversion, and responsive layouts.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- EXPERTISE END -->
+
+  <!-- MY SERVICES START -->
+<section id="my-services">
+    <div class="container">
+        <div class="section-header text-center">
+            <h2>My Sevices</h2>
+            <p>Most common methods for designing websites that work well on desktop is responsive and adaptive design</p>
+        </div>
+
+        <div class="row g-4 align-items-stretch">
+            <div class="col-lg-4">
+                <div class="service-card">
+                    <div class="service-card-icon">
+                        <img src="./images/Group 199.png" alt="Creative Design">
+                    </div>
+                    <div class="service-card-body">
+                        <h4>Creative Design</h4>
+                        <p>Web design refers to the design of websites that are displayed on the internet. It usually refers to the user experience aspects of website development</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4">
+                <div class="service-card featured-card">
+                    <div class="service-card-icon">
+                        <img src="./images/Frame (3).png" alt="UI/UX Design">
+                    </div>
+                    <div class="service-card-body">
+                        <h4>UI/UX Design</h4>
+                        <p>Web design refers to the design of websites that are displayed on the internet. It usually refers to the user experience aspects of website development</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4">
+                <div class="service-card">
+                    <div class="service-card-icon">
+                        <img src="./images/Frame (4).png" alt="Web Design">
+                    </div>
+                    <div class="service-card-body">
+                        <h4>Web Design</h4>
+                        <p>Web design refers to the design of websites that are displayed on the internet. It usually refers to the user experience aspects of website development</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- MY SERVICES END -->
+  
+    <!-- TESTIMONIAL START -->
+<section id="testimonial">
+    <div class="container">
+        <div class="section-header">
+            <h2>Valuable feedback from my client</h2>
+            <p>Most common methods for designing websites that work well on desktop is responsive and adaptive design</p>
+        </div>
+
+        <div class="row align-items-center gy-4">
+            <div class="col-lg-5">
+                <div class="testimonial-img-box text-center">
+                    <img src="./images/Group 203 (1).svg" alt="Albert Walkers" class="img-fluid testimonial-img">
+                </div>
+            </div>
+
+            <div class="col-lg-6 offset-lg-1">
+                <div class="testimonial-content">
+                    <p class="testimonial-quote">&ldquo;Awesome website! Easy to use and edit, it has a lot of options to design whatever you need, it is professional and fun. I was very successful creating my profile using designer which gave me unbelievable reach &amp; appreciation.&rdquo;</p>
+                    <div class="client-meta">
+                        <span class="client-line"></span>
+                        <div>
+                            <h5>Albert Walkers</h5>
+                            <span>Vivaco Group</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- TESTIMONIAL END -->
+
+        <!-- BLOG START -->
+<section id="blog">
+    <div class="container">
+        <div class="section-heading text-lg-end">
+            <h2>From My Blog Post</h2>
+        </div>
+
+        <div class="row g-4">
+            <div class="col-lg-6">
+                <article class="blog-card">
+                    <div class="blog-thumb">
+                        <img src="./images/7358641 1.png" alt="Diversification of digital marketing strategies">
+                    </div>
+                    <div class="blog-body">
+                        <div class="blog-meta">
+                            <span class="blog-date">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                    <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                                    <line x1="16" y1="2" x2="16" y2="6"></line>
+                                    <line x1="8" y1="2" x2="8" y2="6"></line>
+                                    <line x1="3" y1="10" x2="21" y2="10"></line>
+                                </svg>
+                                <span>02 June, 2022</span>
+                            </span>
+                            <span class="blog-author">John Smith</span>
+                        </div>
+                        <h5>Diversification of digital marketing strategies</h5>
+                        <a href="#" class="blog-read-more">
+                            <span>Read More</span>
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                <line x1="7" y1="17" x2="17" y2="7"></line>
+                                <polyline points="7 7 17 7 17 17"></polyline>
+                            </svg>
+                        </a>
+                    </div>
+                </article>
+            </div>
+
+            <div class="col-lg-6">
+                <article class="blog-card">
+                    <div class="blog-thumb">
+                        <img src="./images/5807350 1.png" alt="Diversification of digital marketing strategies">
+                    </div>
+                    <div class="blog-body">
+                        <div class="blog-meta">
+                            <span class="blog-date">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                    <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                                    <line x1="16" y1="2" x2="16" y2="6"></line>
+                                    <line x1="8" y1="2" x2="8" y2="6"></line>
+                                    <line x1="3" y1="10" x2="21" y2="10"></line>
+                                </svg>
+                                <span>02 June, 2022</span>
+                            </span>
+                            <span class="blog-author">John Smith</span>
+                        </div>
+                        <h5>Diversification of digital marketing strategies</h5>
+                        <a href="#" class="blog-read-more">
+                            <span>Read More</span>
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                <line x1="7" y1="17" x2="17" y2="7"></line>
+                                <polyline points="7 7 17 7 17 17"></polyline>
+                            </svg>
+                        </a>
+                    </div>
+                </article>
+            </div>
+
+            <div class="col-lg-6">
+                <article class="blog-card">
+                    <div class="blog-thumb">
+                        <img src="./images/Group 195.png" alt="Diversification of digital marketing strategies">
+                    </div>
+                    <div class="blog-body">
+                        <div class="blog-meta">
+                            <span class="blog-date">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                    <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                                    <line x1="16" y1="2" x2="16" y2="6"></line>
+                                    <line x1="8" y1="2" x2="8" y2="6"></line>
+                                    <line x1="3" y1="10" x2="21" y2="10"></line>
+                                </svg>
+                                <span>02 June, 2022</span>
+                            </span>
+                            <span class="blog-author">John Smith</span>
+                        </div>
+                        <h5>Diversification of digital marketing strategies</h5>
+                        <a href="#" class="blog-read-more">
+                            <span>Read More</span>
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                <line x1="7" y1="17" x2="17" y2="7"></line>
+                                <polyline points="7 7 17 7 17 17"></polyline>
+                            </svg>
+                        </a>
+                    </div>
+                </article>
+            </div>
+
+            <div class="col-lg-6">
+                <article class="blog-card">
+                    <div class="blog-thumb">
+                        <img src="./images/5807361 1.png" alt="Diversification of digital marketing strategies">
+                    </div>
+                    <div class="blog-body">
+                        <div class="blog-meta">
+                            <span class="blog-date">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                    <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                                    <line x1="16" y1="2" x2="16" y2="6"></line>
+                                    <line x1="8" y1="2" x2="8" y2="6"></line>
+                                    <line x1="3" y1="10" x2="21" y2="10"></line>
+                                </svg>
+                                <span>02 June, 2022</span>
+                            </span>
+                            <span class="blog-author">John Smith</span>
+                        </div>
+                        <h5>Diversification of digital marketing strategies</h5>
+                        <a href="#" class="blog-read-more">
+                            <span>Read More</span>
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                <line x1="7" y1="17" x2="17" y2="7"></line>
+                                <polyline points="7 7 17 7 17 17"></polyline>
+                            </svg>
+                        </a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- BLOG END -->
+
+        <!-- NEWSLETTER START -->
+<section id="newsletter">
+    <div class="container">
+        <div class="newsletter-box">
+            <div class="row align-items-center gy-4">
+                <div class="col-lg-6">
+                    <div class="newsletter-text">
+                        <span>Subscribe Now</span>
+                        <h2>Get My Newsletter</h2>
+                        <p>Get latest news, updates, tips and trics in your inbox</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <form class="newsletter-form">
+                        <input type="email" class="newsletter-input" placeholder="Your email here" required>
+                        <button type="submit" class="btn-send-now">Send Now</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- NEWSLETTER END -->
+
+       
+    <!-- FOOTER START -->
+<footer id="footer">
+    <img src="./images/Ellipse 36.svg" alt="" class="footer-shape footer-circle" aria-hidden="true">
+    <img src="./images/Vector 5.svg" alt="" class="footer-shape footer-wave" aria-hidden="true">
+    <img src="./images/Polygon 2 (1).svg" alt="" class="footer-shape footer-triangle" aria-hidden="true">
+
+    <div class="container">
+        <div class="footer-top">
+            <div class="row align-items-center gy-4">
+                <div class="col-lg-3">
+                    <a href="#" class="footer-logo">
+                        <img src="./images/Logo.png" alt="ASHIKUR">
+                    </a>
+                </div>
+
+                <div class="col-lg-5">
+                    <div class="footer-cta-text">
+                        <h2>Let's work together</h2>
+                        <p>You can express yourself however you want and whenever you want, for free. You can customize a template or make your own.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 text-lg-end">
+                    <a href="#contact" class="btn-lets-talk">
+                        <span>Lets talk</span>
+                        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                            <line x1="22" y1="2" x2="11" y2="13"></line>
+                            <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="row align-items-center gy-4">
+                <div class="col-lg-3">
+                    <div class="footer-contact-item">
+                        <span>Call:</span>
+                        <a href="tel:+9984748473833">+9984748473833</a>
+                    </div>
+                </div>
+
+                <div class="col-lg-5">
+                    <div class="footer-contact-item">
+                        <span>Email:</span>
+                        <a href="mailto:dfsush@gmail.com">dfsush@gmail.com</a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="footer-social d-flex align-items-center justify-content-lg-end gap-3">
+                        <span>Follow Me:</span>
+                        <div class="social-icons d-flex align-items-center gap-2">
+                            <a href="#" aria-label="Behance">Bē</a>
+                            <a href="#" aria-label="Dribbble">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                    <circle cx="12" cy="12" r="10"></circle>
+                                    <path d="M8.56 2.75c4.37 6.03 6.02 9.42 8.03 17.72m2.54-15.38c-3.72 4.35-8.94 5.66-16.88 5.85m19.5 1.9c-3.5-.93-6.63-.82-8.94 0-2.58.92-5.01 2.86-7.44 6.32"></path>
+                                </svg>
+                            </a>
+                            <a href="#" aria-label="Instagram">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- FOOTER END --> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/js/bootstrap.bundle.min.js" integrity="sha384-WyOxWvTyr1QaMPfiPJSv76iReVthorl5uWlFtZPyK0IEB0hGzo9y5Bp9mYanr8Bu" crossorigin="anonymous"></script>
+  </body>
+</html>
